@@ -17,14 +17,14 @@ public class LandingActivity extends AppCompatActivity {
 
         Button login = findViewById(R.id.login);
         login.setOnClickListener( view -> {
-//            Intent loginIntent = new Intent(this, LoginActivity.class);
-//            startActivity(loginIntent);
+            Intent loginIntent = new Intent(this, LoginActivity.class);
+            startActivity(loginIntent);
         });
 
         Button signin = findViewById(R.id.signin);
         signin.setOnClickListener( view -> {
-//            Intent loginIntent = new Intent(this, SigninActivity.class);
-//            startActivity(loginIntent);
+            Intent signupIntent = new Intent(this, SignupActivity.class);
+            startActivity(signupIntent);
         });
 
     }

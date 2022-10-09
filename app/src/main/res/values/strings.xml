@@ -10,4 +10,10 @@
     <string name="first_name">first name</string>
     <string name="last_name">last name</string>
     <string name="email">email</string>
+    <string name="welcome">Welcome to</string>
+    <string name="title">Trip Connect</string>
+    <string name="landing_description">Connect your trip to a\nloved one’s device.</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="brand">Tech Adventures Inc.</string>
 </resources>
