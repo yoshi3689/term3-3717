@@ -1,9 +1,13 @@
 <resources>
     <string name="app_name">3717 Project</string>
-    <string name="welcome">Welcome to</string>
-    <string name="title">Trip Connect</string>
-    <string name="landing_description">Connect your trip to a\nloved one’s device.</string>
-    <string name="login">Login</string>
-    <string name="sign_up">Sign Up</string>
-    <string name="brand">Tech Adventures Inc.</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="confirm_password">confirm password</string>
+    <string name="login_btn_text">Login</string>
+    <string name="signup">Sign up</string>
+    <string name="no_account">You don\'t have an account yet? Make one here!</string>
+    <string name="yes_account">Already have an account yet? Login in from here!</string>
+    <string name="first_name">first name</string>
+    <string name="last_name">last name</string>
+    <string name="email">email</string>
 </resources>
