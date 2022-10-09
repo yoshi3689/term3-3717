@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignupActivity">
+
+    <TextView
+        android:id="@+id/textViewSignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/signup"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        />
+    <EditText
+        android:id="@+id/editFirstName"
+        android:layout_width="365dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:autofillHints=""
+        android:layout_marginTop="100dp"
+        android:ems="10"
+        android:hint="@string/first_name"
+        android:inputType=""
+        android:textColorHint="#757575"
+        android:layout_below="@id/textViewSignup"
+        />
+
+    <EditText
+        android:id="@+id/editTextLastName"
+        android:layout_width="365dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/editFirstName"
+        android:layout_centerHorizontal="true"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/last_name"
+        android:inputType=""
+        android:textColorHint="#757575" />
+    <EditText
+        android:id="@+id/editTextUsername"
+        android:layout_width="365dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/username"
+        android:inputType=""
+        android:textColorHint="#757575"
+        android:layout_below="@id/editTextLastName"
+        />
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="365dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#757575"
+        android:layout_below="@id/editTextUsername"
+        />
+
+    <EditText
+        android:id="@+id/ediTextPassword"
+        android:layout_width="365dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/editTextEmail"
+        android:layout_centerHorizontal="true"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType=""
+        android:textColorHint="#757575"
+        tools:ignore="TextFields" />
+
+    <EditText
+        android:id="@+id/ediTextConfirmPassword"
+        android:layout_width="365dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/ediTextPassword"
+        android:layout_centerHorizontal="true"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/confirm_password"
+        android:inputType=""
+        android:textColorHint="#757575"
+        tools:ignore="TextFields" />
+
+
+    <Button
+        android:id="@+id/btnCreateAccount"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/signup"
+        android:textSize="25sp"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/ediTextConfirmPassword"
+        />
+    <TextView
+        android:id="@+id/textViewNoAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/yes_account"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btnCreateAccount"
+        android:textSize="15sp"
+        />
+
+    <!--    <Button-->
+    <!--        android:id="@+id/btnCreateAccount"-->
+    <!--        android:layout_width="300dp"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="@string/create_account"-->
+    <!--        android:textSize="25sp"-->
+    <!--        android:layout_centerHorizontal="true"-->
+    <!--        android:layout_below="@+id/textViewPasswordInstruction"-->
+    <!--        />-->
+
+</RelativeLayout>
