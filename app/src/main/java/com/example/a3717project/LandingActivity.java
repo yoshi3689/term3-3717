@@ -21,8 +21,8 @@ public class LandingActivity extends AppCompatActivity {
             startActivity(loginIntent);
         });
 
-        Button signin = findViewById(R.id.signin);
-        signin.setOnClickListener( view -> {
+        Button signup = findViewById(R.id.signin);
+        signup.setOnClickListener( view -> {
             Intent signupIntent = new Intent(this, SignupActivity.class);
             startActivity(signupIntent);
         });
