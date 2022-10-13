@@ -13,8 +13,6 @@ public class LandingActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_landing);
 
-        //getActionBar().hide();
-
         Button login = findViewById(R.id.login);
         login.setOnClickListener( view -> {
             Intent loginIntent = new Intent(this, LoginActivity.class);

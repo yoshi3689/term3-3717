@@ -15,6 +15,7 @@
     <string name="landing_description">Connect your trip to a\nloved one’s device.</string>
     <string name="login">Login</string>
     <string name="sign_up">Sign Up</string>
+    <string name="brand">Tech Adventures Inc.</string>
 
     <string name="hello_text">Hello, </string>
     <string name="trip_question_text">Are you </string>
@@ -29,6 +30,13 @@
 
     <string name="find_flight">Find your Flight:</string>
     <string name="flight_number">Flight number</string>
+    <string name="my_trip">My Trip:</string>
+    <string name="flight_data">01234YVR : YVR - YYC\n22:30 June 10, 2022</string>
+    <string name="enter_trip_name">Enter Trip Name</string>
+    <string name="share_my_trip">Share My Trip</string>
+    <string name="map_description">Feel a sense of peace, track your loved one\'s trip to make sure they are safe.</string>
+    <string name="trip_code">Please entre trip code</string>
+    <string name="code">Code:</string>
 
 
 </resources>
