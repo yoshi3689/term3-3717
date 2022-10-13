@@ -15,5 +15,20 @@
     <string name="landing_description">Connect your trip to a\nloved one’s device.</string>
     <string name="login">Login</string>
     <string name="sign_up">Sign Up</string>
-    <string name="brand">Tech Adventures Inc.</string>
+
+    <string name="hello_text">Hello, </string>
+    <string name="trip_question_text">Are you </string>
+    <string name="or_text">OR</string>
+    <string name="take_trip_btn">Taking a Trip</string>
+    <string name="other_trip_btn">Watching someone else\'s trip </string>
+
+    <string name="trip_type">Enter your trip type:</string>
+    <string name="flight_btn">Flight</string>
+    <string name="train_ride_btn">Train Ride</string>
+    <string name="taxi_btn">Taxi / Uber</string>
+
+    <string name="find_flight">Find your Flight:</string>
+    <string name="flight_number">Flight number</string>
+
+
 </resources>

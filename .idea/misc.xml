@@ -4,6 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/layout-w1240dp/activity_login.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_enter_trip_type.xml" value="0.20364583333333333" />
+        <entry key="app/src/main/res/layout/activity_find_flight.xml" value="0.28196975044582206" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.20364583333333333" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.2400324503580729" />
         <entry key="app/src/main/res/layout/activity_login2.xml" value="0.37320556640625" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.2390625" />
